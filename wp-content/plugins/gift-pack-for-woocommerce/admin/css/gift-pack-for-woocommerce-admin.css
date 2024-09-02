@@ -1,0 +1,110 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ ul.gpfw_gallery_gallery_mtb.ui-sortable, .gpfw_global_prices, .global_price_value {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gpfw_global_prices, .global_price_value {
+    margin: 20px 10px;
+}
+.gift_pack_for_woocommerce_title{
+  margin-bottom: 1.5em !important;   
+}
+.global_price_value small {
+    font-weight: normal;
+    font-size: 12px;
+}
+.backend_field_title{
+    font-weight: bold;
+}
+.gpfw_gift_value input {
+    width: 100%;
+}
+.global_price_value > div{
+    width: 27%;
+}
+.red_warning{
+    color:red;
+}
+.gpfw_gift_price_value{
+    line-height: 28px;
+}
+.gpfw_save_changes_btn{
+    padding-top: 0px;
+    margin-left: 10px;
+}
+ .button.gpfw_gallery_upload_gallery_button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 96%;
+    max-width: 100%;
+    padding: 25px;
+    border: 1px dashed rgb(34 113 177);
+    border-radius: 3px;
+    transition: 0.2s;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.gpfw_suggestion_text{
+    color:green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gpfw_gallery_gallery_mtb li span, .gpfw_gallery_gallery_mtb li img {
+    display: inline-flex;
+    height: 136px;
+    min-width: 136px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 20%);
+    margin: 10px;
+}
+a.gpfw_gallery_gallery_remove:hover {
+    background-color: #ffffffd4;
+    color: #2271b1;
+}
+a.gpfw_gallery_gallery_remove {
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    line-height: 16px;
+    top: 0px;
+    background-color: #2271b1;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 1px 1px 7px #00000052;
+    font-weight: 800;
+}
+.gpfw-gallery a {
+    outline: none !important;
+}
+ul.gpfw_gallery_gallery_mtb.ui-sortable li{
+    position: relative;
+}
+@media (max-width: 768px) {
+  
+    .global_price_value > div, .global_price_color_picker {
+        width: 100%;
+    }
+    .global_price_title.backend_field_title {
+        margin-bottom: 10px;
+    }
+  }
+  .global_price_value ul li,.global_price_value .popular-category .children .children {
+    margin-bottom: 15px !important;
+  }
+  .global_price_value .popular-category .children,.global_price_value .popular-category .children .children{
+    margin: 20px 20px !important;
+  }
